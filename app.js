@@ -45,7 +45,7 @@ function init() {
             this.size = this.baseSize;
             this.velY = (10/this.size) * this.randomPN();
             this.velX = (10/this.size) * this.randomPN();
-            this.fillColor = this.randomColor("rand","f0");
+            this.fillColor = this.randomColor("warm","f0");
     
             //RANDOM SPAWN POINT
             //the offset is for prevent bubbles spawn in the borders and not bounce
