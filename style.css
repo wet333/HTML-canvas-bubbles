@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(29, 29, 29);
+    color: rgb(255, 255, 255);
+}
+
+#myCanvas{
+    filter: brightness(0.7);
+}
+
+.hero{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.hero-text{
+    position: absolute;
+    top: 10vh;
+    left: 10vw;
+    font-size: 48px;
+}
+
+.main-text{
+    position: absolute;
+    top: 55vh;
+    left: 15vw;
+    width: 65vw;
+}
